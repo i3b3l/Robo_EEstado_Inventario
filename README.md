@@ -1,2 +1,62 @@
 # Robo_EEstado_Inventario
-Automação em Python (Playwright) para o processo de Inventário e Conferência de bens no sistema E-ESTADO do Governo de Rondônia.
+Automação em Python (Playwright).
+
+#######################################################
+# GUIA DE USO: ROBÔ DE INVENTÁRIO E-ESTADO (v1.0)
+# Desenvolvido por Izabel Galvão <3
+#######################################################
+
+Este robô é uma ferramenta de automação projetada para realizar o processo de Reclassificação e Conferência de bens no sistema E-ESTADO.
+
+=======================================================
+PASSO A PASSO PARA INICIAR:
+=======================================================
+
+1. CONFIGURAÇÃO INICIAL
+   - Certifique-se de ter o navegador **Google Chrome** instalado.
+   - A pasta completa com o robô (RoboInventario.exe, Iniciar_Inventario.bat e este LEIAME) deve estar copiada para o Desktop ou Documentos do computador.
+
+2. LOCALIZAR O ARQUIVO:
+   - Encontre o arquivo chamado **"Iniciar_Inventario.bat"** dentro desta pasta.
+
+3. INICIAR A AUTOMAÇÃO:
+   - Dê **dois cliques** no arquivo **"Iniciar_Inventario.bat"**.
+
+   *O que acontecerá:*
+   - Uma janela preta (Console) será aberta com o título personalizado.
+   - O robô irá iniciar o **Google Chrome** automaticamente em um modo especial de "depuração".
+
+4. REALIZAR O LOGIN:
+   - O robô irá parar e exibir uma mensagem de aviso na tela.
+   - **Navegue até o E-ESTADO** na janela do Chrome que foi aberta e **faça seu login manualmente**.
+   - Deixe a tela principal de listagem de bens visível.
+
+5. ACIONAR O ROBÔ:
+   - Depois que a página de listagem estiver carregada e você estiver logado, clique no botão **[OK]** na caixa de mensagem que o robô exibiu.
+
+6. ACOMPANHAMENTO:
+   - O robô assumirá o controle do mouse e teclado e iniciará o processamento sequencial de Reclassificar e Conferir.
+   - Acompanhe o progresso pela janela preta (Console).
+
+7. PÂNICO/INTERRUPÇÃO (MUITO IMPORTANTE!):
+   - Se precisar parar o robô imediatamente por qualquer motivo, aperte a tecla **[ESC]** no teclado.
+   - O robô irá encerrar a execução de forma segura.
+
+8. FIM DA EXECUÇÃO:
+   - Ao final do processamento (ou após a interrupção), o robô fechará o navegador e a janela preta.
+
+=======================================================
+RESOLUÇÃO DE PROBLEMAS E AVISOS
+=======================================================
+
+- **SE O CHROME NÃO ABRIR:** Verifique se o Google Chrome está instalado no caminho padrão (C:\Program Files).
+
+- **SE O ROBÔ TRAVAR:** Aperte **[ESC]** para forçar o encerramento e tente novamente.
+
+- **ATENÇÃO AO ANTIVÍRUS (IMPORTANTE!)**
+  - O arquivo **RoboInventario.exe** é um programa compilado e pode ser bloqueado por sistemas de segurança (como o Windows Defender ou antivírus corporativo).
+  - Se o robô não iniciar, ou se o arquivo **RoboInventario.exe** desaparecer da pasta, pode ser necessário pedir à sua equipe de TI para adicionar o arquivo à **lista de exceções** do antivírus.
+
+- **DISTRIBUIÇÃO:**
+  - Este é um programa portátil. Não é preciso instalar nada além do Chrome.
+  - Para instalar em outro computador, basta **copiar a pasta completa** (`Robo_EEstado_Inventario`) e seguir os passos acima.
